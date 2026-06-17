@@ -29,8 +29,8 @@ stages:
       size: 2300925
     - path: src/model_training.py
       hash: md5
-      md5: 71794acd69b822909cc98d10a42680c2
-      size: 442
+      md5: c972f28d5253e3175ffcd35f51d4f056
+      size: 982
     params:
       params.yaml:
         max_depth: 10
@@ -53,10 +53,10 @@ stages:
       size: 8457961
     - path: src/evaluation.py
       hash: md5
-      md5: cbafdf871e66a8b999498b1bbb517849
-      size: 435
+      md5: 313c7636ab5373d6b1640297b8155810
+      size: 980
     outs:
     - path: reports/metrics.json
       hash: md5
-      md5: b2707e408de8ed6650c033ea13c4da17
-      size: 20
+      md5: f289844002cebd70db4e7914110bca3d
+      size: 138
